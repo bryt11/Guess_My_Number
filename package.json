@@ -1,0 +1,10 @@
+{
+  "name": "GMN",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {},
+  "scripts": {
+    "game": "node index.js"
+  },
+  "type": "module"
+}

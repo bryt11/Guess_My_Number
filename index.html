@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess My Number</title>
+  </head>
+  <body>
+    <header class="top">
+      <h1>GUESS MY NUMBER !!!</h1>
+      <p class="between">(You can guess between 1 and 20)</p>
+      <button class="bttn-unite bttn-md bttn-primary restart">Restart</button>
+      <div class="number">?</div>
+    </header>
+
+    <main>
+      <section class="left">
+        <p class="message">Start guessing...</p>
+        <p class="label-score">Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+
+      <section class="right">
+        <input class="guess" type="number" placeholder="Number ?" />
+
+        <button type="button" class="bttn-unite bttn-md bttn-primary check">
+          Check
+        </button>
+      </section>
+    </main>
+
+    <div class="modal hidden">
+      <h3>You lose... Would you like to play again ?</h3>
+      <button class="bttn-unite bttn-md bttn-primary again">Play again!</button>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <footer class="bottom"></footer>
+    <p class="author">Author: Bright Udo</p>
+    <div class="copy">copyright &copy;</div>
+    <script src="index.js"></script>
+  </body>
+</html>
